@@ -17,3 +17,8 @@ bash -c "`curl -fsSL https://raw.github.com/ricardoperez/dotfiles/master/install
 ### Read More
 
 [http://dotfiles.github.io/]
+
+### TODO
+* Fixing ubuntu issues
+* auto-install git, vim, ruby, zsh
+
