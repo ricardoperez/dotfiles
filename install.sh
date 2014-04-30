@@ -19,7 +19,6 @@ else
     \curl -sSL https://get.rvm.io | bash -s stable --ruby
   fi
 fi
-exit;
 
 # Installing Homebrew
 hash ruby 2>/dev/null || { echo >&2 "Ruby is required"; exit 1; } 
