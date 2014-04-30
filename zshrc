@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/dotfiles/oh-my-zsh
+ZSH=$HOME/.dotfiles/oh-my-zsh
 
 # Export the DFAULT_USER variable
 export DEFAULT_USER="ricardoperez"
@@ -18,10 +18,10 @@ export DEFAULT_USER="ricardoperez"
 ZSH_THEME="agnoster"
 
 # Example aliases
-alias zshconfig="vim ~/dotfiles/zshrc"
-alias ohmyzsh="vim ~/dotfiles/oh-my-zsh"
+alias zshconfig="vim ~/.dotfiles/zshrc"
+alias ohmyzsh="vim ~/.dotfiles/oh-my-zsh"
 
-source $HOME/dotfiles/alias
+source $HOME/.dotfiles/alias
 
 #function to create and go to folder :)
 function mcd() {   [ -n "$1" ] && mkdir -p "$@" && cd "$1";   }
@@ -62,11 +62,11 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 # Custom plgin
-CUSTOM_ZSH=$HOME/dotfiles/custom-zsh
+CUSTOM_ZSH=$HOME/.dotfiles/custom-zsh
 source $CUSTOM_ZSH/git_functions.plugin.zsh
 
 # Using Tmuxinator
-source $HOME/dotfiles/bin/tmuxinator.zsh
+source $HOME/.dotfiles/bin/tmuxinator.zsh
 
 # Add ~/bin to my PATH
 export PATH=/usr/local/bin:$PATH:$HOME/bin:$HOME/.rvm/bin
