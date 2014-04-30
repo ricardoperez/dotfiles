@@ -36,6 +36,9 @@ fi
 if [ ! -d "$HOME/.dotfiles" ]; then
   echo "Installing dotfiles for the first time"
   git clone https://github.com/ricardoperez/dotfiles.git "$HOME/.dotfiles"
+  cd "$HOME/.dotfiles"
+  git submodule init
+  git submodule update
 else
   echo "Dotfiles is already installed"
 fi
