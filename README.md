@@ -12,7 +12,7 @@ I need to put more description here
 To get started please run:
 
 ```bash
-sh -c "`curl -fsSL https://raw.github.com/ricardoperez/dotfiles/master/install.sh`"
+bash -c "`curl -fsSL https://raw.github.com/ricardoperez/dotfiles/master/install.sh`"
 ```
 ### Read More
 
