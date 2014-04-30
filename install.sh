@@ -47,7 +47,7 @@ for filename in ${files[@]}
 do
   if [ -s $HOME/.$filename ];then
     echo " $filename already exits do you want overwrite?"
-    askperm
+    askPerm
     if [ $? -eq 1 ]; then
       rm -rf $HOME/.$filename
       ln -sfi $PWD/$filename ~/.$filename
