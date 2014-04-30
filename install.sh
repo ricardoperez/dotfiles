@@ -33,8 +33,6 @@ else
   fi
 fi
 
-exit;
-
 if [ ! -d "$HOME/.dotfiles" ]; then
   echo "Installing dotfiles for the first time"
   git clone https://github.com/ricardoperez/dotfiles.git "$HOME/.dotfiles"
