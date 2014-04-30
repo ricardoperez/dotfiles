@@ -36,10 +36,11 @@ fi
 if [ ! -d "$HOME/.dotfiles" ]; then
   echo "Installing dotfiles for the first time"
   git clone https://github.com/ricardoperez/dotfiles.git "$HOME/.dotfiles"
-  cd "$HOME/.dotfiles"
 else
   echo "Dotfiles is already installed"
 fi
+
+cd "$HOME/.dotfiles"
 
 files=( bash_profile alias vim vimrc gitconfig gitignore_global git-templates tmux.conf zshrc bin gemrc )
 
