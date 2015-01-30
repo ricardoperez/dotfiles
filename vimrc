@@ -29,7 +29,7 @@ cmap w!! w !sudo tee % >/dev/null
 "Colorscheme
 set background=dark
 set t_Co=256
-colorscheme solarized
+colorscheme molokai
 
 if has("gui_macvim")
   colorscheme railscasts
@@ -46,6 +46,7 @@ set softtabstop=2
 set expandtab
 set autoindent
 filetype plugin indent on
+autocmd BufNewFile,BufRead *.json set ft=javascript
 
 " Highlight Whitespaces
 highlight ExtraWhitespace ctermbg=red guibg=red

@@ -6,4 +6,21 @@ alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
 # Open the last directory
 alias cdlast='cd $( ls -lt | grep d | head -1 |  cut -b 49- )'
+alias birb='bundle exec irb'
+alias beils='bundle exec rails'
+alias bex='bundle exec'
+alias bexec='bundle exec'
+alias bake='bundle exec rake'
+alias bspec='bundle exec rspec -f d -c'
+alias burb='bundle exec ruby'
+alias bucumber='bundle exec cucumber'
+alias cdpr='cd ~/projects'
 
+
+function cdp {
+  cd ~/projects/$1
+}
+
+if [ -f ~/.alias_local ]; then
+  . ~/.alias_local
+fi
