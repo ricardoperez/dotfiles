@@ -29,7 +29,9 @@ cmap w!! w !sudo tee % >/dev/null
 "Colorscheme
 set background=dark
 set t_Co=256
-colorscheme molokai
+"colorscheme molokai
+"colorscheme desert
+colorscheme solarized
 
 if has("gui_macvim")
   colorscheme railscasts

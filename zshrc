@@ -5,10 +5,10 @@ ZSH=$HOME/.dotfiles/oh-my-zsh
 export DEFAULT_USER="ricardoperez"
 
 # Forcing TERM to use 256 Colors - Fix Tmux wrong colors
-#export TERM="xterm-256color"
+export TERM="xterm-256color"
 
 # Add RVM to agnoster theme
-#export RPROMPT="\$(~/.rvm/bin/rvm-prompt) [%D{%L:%M:%S %p}]"
+export RPROMPT="\$(~/.rvm/bin/rvm-prompt) [%D{%L:%M:%S %p}]"
 
 
 # Set name of the theme to load.
@@ -95,7 +95,7 @@ if [ -f $HOME/.zsh_custons ]; then
 fi
 
 # Set the environment variable for the docker daemon
-export DOCKER_HOST=tcp://127.0.0.1:4243
+# export DOCKER_HOST=tcp://127.0.0.1:4243
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+# export PATH="/usr/local/heroku/bin:$PATH"
