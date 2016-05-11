@@ -10,17 +10,16 @@ export TERM="xterm-256color"
 # Add RVM to agnoster theme
 export RPROMPT="\$(~/.rvm/bin/rvm-prompt) [%D{%L:%M:%S %p}]"
 
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
-
+#ZSH_THEME="agnoster"
+ZSH_THEME="bira"
 # Example aliases
 alias zshconfig="vim ~/.dotfiles/zshrc"
 alias ohmyzsh="vim ~/.dotfiles/oh-my-zsh"
-
+alias tmuxconf="vim ~/.tmux.conf"
 source $HOME/.dotfiles/alias
 
 #function to create and go to folder :)
@@ -58,7 +57,7 @@ CASE_SENSITIVE="true"
 plugins=(git rails ruby brew rvm capistrano heroku rake pip github zsh-syntax-highlighting themes)
 
 source $ZSH/oh-my-zsh.sh
-
+source ~/.bin/tmuxinator.zsh
 # Customize to your needs...
 
 # Custom plgin

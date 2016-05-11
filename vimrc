@@ -109,3 +109,4 @@ cmap <C-e> <C-r>=expand('%:p:h')<CR>/
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 map <leader>tt :set noet ci pi sts=0 sw=4 ts=4<cr>
+let g:Powerline_symbols = 'fancy'

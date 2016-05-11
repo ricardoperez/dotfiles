@@ -45,3 +45,4 @@ export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
 
 # Add ~/bin to my PATH
 PATH=/usr/local/bin:$PATH:$HOME/bin
+
