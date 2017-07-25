@@ -98,3 +98,12 @@ fi
 
 ### Added by the Heroku Toolbelt
 # export PATH="/usr/local/heroku/bin:$PATH"
+
+eval "$(direnv hook zsh)"
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/ricardop/projects/square/onlinedev-membership-auth-5/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/ricardop/projects/square/onlinedev-membership-auth-5/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/ricardop/projects/square/onlinedev-membership-auth-5/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/ricardop/projects/square/onlinedev-membership-auth-5/google-cloud-sdk/completion.zsh.inc'; fi
